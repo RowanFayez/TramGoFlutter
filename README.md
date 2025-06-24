@@ -14,7 +14,7 @@ final uri = Uri(
         },
       ); 4
 
-if real phone simulation :
+if Physical Device" simulation :
 final uri = Uri.http('192.168..:3000', '/getPath', { #your current ipcongig for desktop that runs tha server 
   'start': widget.from,
   'end': widget.to,
