@@ -20,3 +20,6 @@ final uri = Uri.http('192.168..:3000', '/getPath', { #your current ipcongig for 
   'end': widget.to,
   'mode': 'precomputed',
 });
+
+
+video demo:https://drive.google.com/drive/folders/1aibkD4x50774DwG-Tfao1wYY_mWVMYwE
