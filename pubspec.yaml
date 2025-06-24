@@ -1,0 +1,41 @@
+name: alex_tram
+description: "Alexandria Tram Guide"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  geolocator: ^10.1.0
+  flutter_localizations:
+    sdk: flutter
+  csv: ^5.0.1
+  intl: ^0.20.2 
+  provider: ^6.0.5
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/tramgo.png"
+
+# flutter_native_splash:
+#   color: "#000000"
+#   image: assets/images/tramgo.png
+#   # branding: assets/images/tramgo.png
+#   android: true
+#   ios: true
+#   fullscreen: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/tramgo.png
+    - assets/gtfs/stops.txt
